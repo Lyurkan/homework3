@@ -9,6 +9,7 @@ public class HomeWork3 {
             System.out.println(questions[i]);
             userAnswers[i] = scanner.nextInt();
         }
+
         int rightAnswers = 0;
         for (int i = 0; i < correctAnswers.length; i++) {
             if (correctAnswers[i] == userAnswers[i]) {
